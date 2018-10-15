@@ -21,8 +21,8 @@ namespace WulianwangAPITest
 
 
 
-            //string body1 = "{ \"imei\": \"864183031179194\"}";
-            //string sss1 = Post1("http://open.189iot.cn:8832/wlwManage/api/getDeviceInfo.do", body1, jp.accessToken);
+            string body1 = "{ \"imei\": \"864183031179194\"}";
+            string sss1 = Post1("http://open.189iot.cn:8832/wlwManage/api/getDeviceInfo.do", body1, jp.accessToken);
 
 
 
@@ -31,7 +31,7 @@ namespace WulianwangAPITest
             string body2 = "{ \"imei\": \"869029030511454\",\"orderList\": [{ \"orderName\": \"命令下发\",\"orderValue\": {\"command\":\"0212fefefefe6899999999999968010263e9b516\"}}]}";
             string sss2 = Post2("http://open.189iot.cn:8832/wlwManage/api/orderCommand.do", body2, jp.accessToken);
 
-
+            Console.WriteLine(sss1);
             Console.WriteLine(sss2);
             Console.ReadKey();
         }

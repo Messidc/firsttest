@@ -725,11 +725,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\c_sharp_workspace\\WulianwangAPITest\\WulianwangAPITest\\WulianwangAPITest.csproj",
+      "projectUniqueName": "D:\\PortableGit\\firsttest\\WulianwangAPITest\\WulianwangAPITest\\WulianwangAPITest.csproj",
       "projectName": "WulianwangAPITest",
-      "projectPath": "D:\\c_sharp_workspace\\WulianwangAPITest\\WulianwangAPITest\\WulianwangAPITest.csproj",
+      "projectPath": "D:\\PortableGit\\firsttest\\WulianwangAPITest\\WulianwangAPITest\\WulianwangAPITest.csproj",
       "packagesPath": "C:\\Users\\Messi\\.nuget\\packages\\",
-      "outputPath": "D:\\c_sharp_workspace\\WulianwangAPITest\\WulianwangAPITest\\obj\\",
+      "outputPath": "D:\\PortableGit\\firsttest\\WulianwangAPITest\\WulianwangAPITest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
