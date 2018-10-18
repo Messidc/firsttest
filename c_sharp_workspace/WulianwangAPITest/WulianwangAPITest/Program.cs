@@ -13,7 +13,7 @@ namespace WulianwangAPITest
         {
             //Console.WriteLine("Hello World!");
 
-            string serviceAddress = "http://www.189iot.cn:8832/wlwManage/api/auth.do";
+            string serviceAddress = "http://119.96.232.64:8832/wlwManage/api/auth.do";
             string body = "{ \"userName\": \"DHBSQ\",\"secret\": \"hbgz.890\"}";
             //string body = "{ \"userName\": \"ttrr\",\"secret\": \"Chen@190\"}";
             string sss = Post(serviceAddress, body);
@@ -26,7 +26,7 @@ namespace WulianwangAPITest
 
 
             string body3 = "[{\"deviceName\":\"测试新增电表\",\"deviceModName\":\"DahuaElectricityMeter\",\"prodCompanyName\":\"上海大华测控设备厂有限公司\",\"deviceInstId\":\"DDSY879 - Q\",\"iccid\":\"111111111111111111\",\"imei\":\"1111111111111\",\"installAddress\":\"湖北武汉\",\"wgsLatitude\":\"0\",\"wgsLongitude\":\"0\"}]";
-            string sss3 = PostAddDevice("http://www.189iot.cn:8832/wlwManage/api/addDevice.do", body3, jp.accessToken);
+            string sss3 = PostAddDevice("http://119.96.232.64:8832/wlwManage/api/addDevice.do", body3, jp.accessToken);
 
             //调用魔豆的sourceCommand
             //string body2 = "{ \"imei\": \"869029030511454\",\"orderList\": [{ \"orderName\": \"命令下发\",\"orderValue\": {\"command\":\"0212fefefefe6899999999999968010263e9b516\"}}]}";
