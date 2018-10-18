@@ -20,7 +20,7 @@ namespace WulianwangAPITest
             JAuth jp = JsonConvert.DeserializeObject<JAuth>(sss);
 
 
-            ////123
+            
             //            string body1 = "{ \"imei\": \"864183031179194\"}";
             //            string sss1 = Post1("http://open.189iot.cn:8832/wlwManage/api/getDeviceInfo.do", body1, jp.accessToken);
 
