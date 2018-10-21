@@ -1,7 +1,6 @@
 # Build and Object Folders  
 bin/  
-obj/  
-.dtbcache
+obj/
   
 # Nuget packages directory  
 packages/  
@@ -81,9 +80,8 @@ ModelManifest.xml
  
 #zzzili
 v15/
-#.gitignore
+.gitignore
 
-c_sharp_workspace/WulianwangAPITest/.vs/WulianwangAPITest/DesignTimeBuild/.dtbcache
 
 
 #################################################################################################################
